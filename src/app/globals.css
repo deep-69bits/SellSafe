@@ -2,26 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+@font-face {
+    font-family: 'anonymous';
+    src: url('/public/Fonts/AnonymousProRegular.ttf') format('tff'),
+}
+ 
+@font-face {
+    font-family: 'gilory';
+    src: url('/public/Fonts/Gilroy-Semibold.woff') format('woff'),
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+    font-family: 'mabry';
+    src: url('/public/Fonts/MabryProBlack.ttf') format('tff'),
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.anonymous{
+    font-family: anonymous;
 }
+.gilory{
+    font-family: gilory;
+}
+.mabry{
+    font-family: mabry;
+}
+
