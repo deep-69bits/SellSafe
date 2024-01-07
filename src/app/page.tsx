@@ -1,4 +1,5 @@
 import Contact from '@/components/Contact'
+import Feature from '@/components/Feature'
 import Faq from '@/components/Faq'
 import Hero from '@/components/Hero'
 import Info from '@/components/Info'
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="">
     <Hero/> 
     <Products/>
+    <Feature/>
     <Info/>
     <Faq/>
     <Contact/>
