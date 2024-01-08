@@ -3,28 +3,8 @@
 @tailwind utilities;
 
 
-@font-face {
-    font-family: 'anonymous';
-    src: url('/public/Fonts/AnonymousProRegular.ttf') format('tff'),
-}
- 
-@font-face {
-    font-family: 'gilory';
-    src: url('/public/Fonts/Gilroy-SemiBold.ttf') format('ttf'),
-}
 
-@font-face {
-    font-family: 'mabry';
-    src: url('/public/Fonts/MabryProBlack.ttf') format('tff'),
-}
 
-.anonymous{
-    font-family: anonymous;
-}
-.gilory{
-    font-family: gilory;
-}
-.mabry{
-    font-family: mabry;
-}
+
+
 

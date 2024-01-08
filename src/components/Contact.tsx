@@ -3,7 +3,7 @@ import Button from './atoms/Button'
 
 const Contact = () => {
     return (
-        <div className='lg:flex items-center block gap-x-40 justify-between px-5  '>
+        <div className='lg:flex items-center block gap-x-40 justify-between lg:px-10 px-3 '>
 
             <div className='text-[70px] lg:hidden block mb-10 lg:text-[137px] text-left  lg:text-right lg:float-right float-none text-[#836EF6] gilory font-[600] leading-tight '>
                 BECHO  BEFIKAR

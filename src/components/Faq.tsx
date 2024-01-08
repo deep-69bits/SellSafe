@@ -1,6 +1,7 @@
 'use client' //
 import React, { useState } from 'react'
 import AccordionItem from './atoms/AccordionItem'
+import Gilroy from './Text/Gilroy'
 
 const Faq = () => {
 
@@ -71,19 +72,19 @@ const Faq = () => {
             ],
         },
     ]
+
     return (
-        <div className='ml-[5%]' >
-            <div className="text-[#271E58]  text-5xl sm:text-6xl font-[650] capitalize p-10 pl-20">
-                <p>We are here to help</p>
-                <p> you. See FAQs</p>
+        <div className='mt-10 lg:px-10 px-3' >
+            <div className="text-[#271E58]  text-[54px] sm:text-6xl font-[650] capitalize lg:p-10 p-4 pl-3 lg:pl-20">
+                <Gilroy><p className='lg:w-2/3 w-full'>We are here to help  you. See FAQs</p></Gilroy>
             </div>
             <div>
                 {
                     accordionData.map((data, ind) => {
                         return (
-                            <div className='p-4 bg-[#f5f2fc] w-[95%] rounded-[60px] mb-10'>
-                                <h1 className='text-[#664BFB] text-3xl sm:text-4xl uppercase p-6 pl-20 font-[450] '>{data.title}</h1>
-                                <div>
+                            <div className='  bg-purple-100 bg-opacity-60  rounded-3xl my-5'>
+                                <h1 className='text-[#664BFB] text-3xl sm:text-4xl uppercase p-6 lg:pl-20 pl-7 font-[450] '>{data.title}</h1>
+                                <div className='pb-5'>
                                     {
                                         data.questions.map((question, index) => {
                                             return (
@@ -94,7 +95,7 @@ const Faq = () => {
                                                     />
                                                     {
                                                         (index != data.questions.length - 1) ?
-                                                            <hr className='w-[85%] h-1 ml-10 sm:ml-20 bg-[#AFAFAF] mt-3 mb-1'></hr>
+                                                            <hr className='w-[85%] h-[2px] ml-10 sm:ml-20 bg-[#AFAFAF] mt-3 mb-1'></hr>
                                                             :
                                                             <span></span>
                                                     }

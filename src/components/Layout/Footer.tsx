@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='mt-5'>
 
-      <div className='flex justify-between px-10 py-10'>
+      <div className='lg:flex block justify-between px-10 py-10'>
         <div className='flex flex-col gap-y-4'>
 
           <div className='flex flex-col gap-y-2'>

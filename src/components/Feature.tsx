@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import Gilroy from './Text/Gilroy'
+import Mabry from './Text/Mabry'
+import Arial from './Text/Arial'
 
 
 
@@ -96,45 +99,61 @@ const RESELLSVG=()=>{
 
 const Feature = () => {
   return (
-    <div className='px-10 '>
+    <div className='lg:px-10 px-3 '>
       <div className='bg-purple-100 py-10 w-full  rounded-xl'>
-        <h1 className='text-[#271E58] gilory text-center text-[64px]'>Relax, Resell, Repeat</h1>
-        <h2 className='text-center lg:w-[50%] w-full mx-auto mabry text-[24px]'>An easy and efficient way to sell and buy second hand products.
-          Find the right buyer for almost anything.</h2>
+        <h1 className='text-[#271E58] gilory text-left px-3 lg:px-0 lg:text-center text-[64px]'>
+          <Gilroy>Relax, Resell, Repeat</Gilroy>
+        </h1>
+        <h2 className='lg:text-center capitalize text-left px-3 lg:px-0 lg:w-[50%] w-full mx-auto  text-[24px]'>
+          An easy and efficient way to sell and buy second hand products.
+          Find the right buyer for almost anything.
+        </h2>
       
 
-      <div className='grid mt-10 grid-flow-row grid-cols-2 gap-x-40 px-5'>
+      <div className='grid gap-y-5 mt-14 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-x-40 px-5'>
 
         <div className='flex flex-col px-0 lg:px-20 gap-y-10 w-[95%] '>
 
           <div className='bg-white rounded-2xl w-fit px-5 py-3'>
-              <h5 className='text-[#684EFB] font-medium text-xl '>AI  INTEGRATION</h5>
-              <div  className='flex items-center gap-x-4 my-4' >
+              <h5 className='text-[#684EFB]   text-[22px] '>
+                <Arial className='text-left' >AI  INTEGRATION</Arial>
+              </h5>
+              <div  className='flex  items-start lg:items-center gap-x-4 my-4' >
                   <AISVG/>
-                  <div className='text-xl'>
+                  <div className='text-lg'>
+                    <Arial>
                   Smart recommendations for a seamless selling and buying experience.
+                    </Arial>
                   </div>
               </div>
           </div>
 
 
           <div className='bg-white rounded-2xl w-fit px-5 py-3'>
-              <h5 className='text-[#684EFB] font-medium text-xl '>AI  INTEGRATION</h5>
-              <div  className='flex items-center gap-x-4 my-4' >
+             <h5 className='text-[#684EFB]   text-[22px] '>
+                <Arial className='text-left' >Verified Users</Arial>
+              </h5>
+              <div  className='flex items-start lg:items-center gap-x-4 my-4' >
                   <USERSVG/>
-                  <div className='text-xl w-full '>
+                  <div className='text-lg w-full '>
+                    <Arial>
                   Trust and safety are ensured with Aadhar verification of every user..
+                    </Arial>
                   </div>
               </div>
           </div>
 
 
           <div className='bg-white rounded-2xl w-fit px-5 py-3'>
-              <h5 className='text-[#684EFB] font-medium text-xl '>AI  INTEGRATION</h5>
-              <div  className='flex items-center gap-x-4 my-4' >
+          <h5 className='text-[#684EFB]   text-[22px] '>
+                <Arial className='text-left' >Reselling</Arial>
+              </h5>
+              <div  className='flex items-start lg:items-center gap-x-4 my-4' >
                   <RESELLSVG/>
-                  <div className='text-xl w-full '>
+                  <div className='text-lg w-full '>
+                  <Arial>
                   Monetise unused items with a few clicks – turning clutter into quick cash!
+                  </Arial>
                   </div>
               </div>
           </div>
@@ -148,10 +167,9 @@ const Feature = () => {
         </div>
 
         <div>
-          <Image  src={"/Images/MultiplePhones.png"} width={400} height={400} alt="Phone Images"/>
+          <Image  src={"/Images/MultiplePhones.png"} width={450} height={400} alt="Phone Images"/>
         </div>
       </div>
-
       </div>
 
     </div>

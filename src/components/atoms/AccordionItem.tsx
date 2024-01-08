@@ -1,18 +1,20 @@
 import React, { useState } from "react";
+import Arial from "../Text/Arial";
 
 const AccordionItem = ({ ques, desc }: { ques: string, desc: string }) => {
     const [accordionOpen, setAccordionOpen] = useState(false);
 
     return (
-        <div className="p-6 pl-20 pb-0">
+        <div className="py-3 lg:pl-20 pl-2  pb-0">
             <button
                 onClick={() => setAccordionOpen(!accordionOpen)}
                 className="flex justify-between w-full"
             >
-                <span className="text-2xl font-[500]">{ques}</span>
+                <span className="text-xl w-2/3 lg:w-full pl-5 lg:pl-0 text-left lg:text-2xl font-[500]">
+                    <Arial>{ques}</Arial>
+                </span>
                 <span className="mr-[10%]">
                     {accordionOpen ?
-
                         <svg className="h-8 w-8 text-black " viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">  <circle cx="12" cy="12" r="10" />  <line x1="8" y1="12" x2="16" y2="12" />
                         </svg>
                         :
@@ -28,7 +30,9 @@ const AccordionItem = ({ ques, desc }: { ques: string, desc: string }) => {
                     : "grid-rows-[0fr] opacity-0"
                     }`}
             >
-                <div className="overflow-hidden">{desc}</div>
+                <div className="overflow-hidden">
+                    <Arial>{desc}</Arial>
+                </div>
             </div>
         </div>
     );
