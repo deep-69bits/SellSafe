@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './atoms/Button'
+
 
 const Contact = () => {
     return (
@@ -9,7 +9,7 @@ const Contact = () => {
                 BECHO  BEFIKAR
             </div>
 
-            <div className='lg:float-left float-right '>
+            <div className=' '>
                 <h2 className='text-[#271E58]  font-[500] text-[36px] gilory  leading[36px]'>
                     Be the first to know about any Product
                 </h2>
