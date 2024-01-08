@@ -4,6 +4,7 @@ import Faq from '@/components/Faq'
 import Hero from '@/components/Hero'
 import Info from '@/components/Info'
 import Products from '@/components/Products'
+import Categories from '@/components/Categories'
 
 
 
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="">
     <Hero/> 
     <Products/>
+    <Categories/>
     <Feature/>
     {/* <Info/> */}
     <Faq/>
