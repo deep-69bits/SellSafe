@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Arial from '../Text/Arial'
 const Footer = () => {
   return (
     <div className='mt-5'>
 
-      <div className='lg:flex block justify-between px-10 py-10'>
+      <div className='lg:flex block justify-between  px-4  lg:px-10 py-10'>
         <div className='flex flex-col gap-y-4'>
 
           <div className='flex flex-col gap-y-2'>
@@ -29,6 +30,20 @@ const Footer = () => {
             </h5>
           </div>
 
+
+          <div className='lg:hidden block'>
+            <div className='flex justify-center'>
+          <Image className='absolute  translate-y-20  ' width={100} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
+            </div>
+          <video className='w-[800px]  rounded-2xl ' src='/Videos/advideo.mp4' autoPlay loop />
+
+           <h4 className='text-[24px]  mt-16 text-center  font-medium text-[#664BFB]'>Download The App</h4>
+           <div className='flex   z-50 bottom-32 flex-row mt-4'>
+                    <Image src={'/Images/GooglePlay.png'} width={192} height={68} alt='Google Play Button' />
+                    <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Google Play Button' />
+            </div>
+          </div>
+
           <div className='flex flex-col gap-y-2'>
           <h3 className='text-[#664BFB] text-[24px] font-semibold'>Categories</h3>
           <span className='text-[20px] font-medium'>Electronics</span>
@@ -51,8 +66,8 @@ const Footer = () => {
 
         </div>
 
-        <div className=' p-5 bg-purple-100 rounded-2xl'>
-          <Image className='absolute translate-x-[550px] translate-y-20 ' width={180} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
+        <div className='lg:block hidden p-5 bg-purple-100 rounded-2xl'>
+          <Image className='absolute  lg:translate-x-[550px] translate-y-20 ' width={180} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
           <video className='w-[800px] ' src='/Videos/advideo.mp4' autoPlay loop />
           <div className='flex justify-between items-center'>
             <div className='flex flex-row mt-4'>
@@ -65,9 +80,19 @@ const Footer = () => {
 
       </div>
 
-      <div className='flex justify-between  bg-opacity-10 bg-purple-100  w-full'>
-        <span>© 2022 SellSafe. All Rights Reserved.</span>
-        <span className='flex items-center'>
+      <div className='lg:flex block items-center justify-between px-4 lg:px-10 pb-5  bg-opacity-10 bg-purple-100  w-full'>
+        <span className='text-[#664BFB] font-[400] text-[20px]'>
+          <Arial>
+          © 2022 SellSafe. All Rights Reserved.
+          </Arial>
+          </span>
+        <span className='cursor-pointer underline tex-[20px] text-[#836EF6] '>
+          <Arial>
+          Back to Top
+          </Arial>
+        </span>
+          <Arial>
+        <span className='flex items-center gap-x-1 text-[#664BFB] font-[400] text-[20px]'>
           Made with
           <svg width="24" height="21" viewBox="0 0 24 21" fill="none" >
             <path d="M12 20.1192C0.0656999 15.7388 -1.33279 6.42567 0.866813 2.66972C2.38505 0.077537 5.88847 -0.531369 8.75686 1.10029C8.76021 1.10225 8.76407 1.10415 8.76749 1.10656C8.79407 1.12155 8.82109 1.137 8.84767 1.15289C8.85153 1.15485 8.85539 1.15725 8.85925 1.15966C10.1066 1.89609 11.2264 3.0613 12 4.67707C14.1441 0.200639 18.9441 -0.818756 21.7473 1.15966C22.2983 1.54838 22.772 2.05304 23.1332 2.66967C25.3328 6.42567 23.9343 15.7388 12 20.1192Z" fill="#EE596B" />
@@ -75,6 +100,7 @@ const Footer = () => {
           </svg>
           in India.
         </span>
+          </Arial>
       </div>
 
     </div>
