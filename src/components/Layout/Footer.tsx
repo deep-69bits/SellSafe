@@ -4,8 +4,8 @@ import Arial from '../Text/Arial'
 const Footer = () => {
   return (
     <section >
-      <div className='mt-5'>
-        <div className='lg:flex block lg:justify-between  px-4  lg:px-10 py-10'>
+      <div className='lg:block hidden  mt-5'>
+        <div className='lg:flex  block lg:justify-between  px-4  lg:px-10 py-10'>
           <div className='flex flex-col gap-y-4'>
 
             <div className='flex flex-col gap-y-2'>
