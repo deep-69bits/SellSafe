@@ -31,20 +31,6 @@ const Footer = () => {
             </div>
 
 
-            <div className='lg:hidden block'>
-              <div className='flex justify-center'>
-                <Image className='absolute  translate-y-20  ' width={100} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
-                <div className='w-[380px] h-[220px]'>
-                  {/* <video className='w-[800px]  rounded-2xl ' src='/Videos/advideo.mp4' autoPlay loop /> */}
-                </div>
-              </div>
-
-              <h4 className='text-[24px] mt-14  text-center  font-medium text-[#664BFB]'>Download The App</h4>
-              <div className='flex   z-50 bottom-32 flex-row mt-4'>
-                <Image src={'/Images/GooglePlay.png'} width={192} height={68} alt='Google Play Button' />
-                <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Google Play Button' />
-              </div>
-            </div>
 
             <div className='flex flex-col gap-y-2'>
               <h3 className='text-[#664BFB] text-[24px] font-semibold'>Categories</h3>
