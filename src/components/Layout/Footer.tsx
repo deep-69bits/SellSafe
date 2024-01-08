@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Arial from '../Text/Arial'
 const Footer = () => {
   return (
-    <section id="#footer">
+    <section >
       <div className='mt-5'>
-        <div className='lg:flex block justify-between  px-4  lg:px-10 py-10'>
+        <div className='lg:flex block lg:justify-between  px-4  lg:px-10 py-10'>
           <div className='flex flex-col gap-y-4'>
 
             <div className='flex flex-col gap-y-2'>
@@ -35,7 +35,7 @@ const Footer = () => {
               <div className='flex justify-center'>
                 <Image className='absolute  translate-y-20  ' width={100} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
                 <div className='w-[380px] h-[220px]'>
-                  <video className='w-[800px]  rounded-2xl ' src='/Videos/advideo.mp4' autoPlay loop />
+                  {/* <video className='w-[800px]  rounded-2xl ' src='/Videos/advideo.mp4' autoPlay loop /> */}
                 </div>
               </div>
 
