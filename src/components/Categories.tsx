@@ -12,7 +12,7 @@ const CategoryAtom=({children}:any)=>{
 
 const Categories = () => {
   return (
-    <div className='lg:px-10 px-4 overflow-hidden hidden lg:flex flex-col gap-10 my-20'>
+    <div className='lg:px-10 py-10 px-4 overflow-hidden hidden lg:flex flex-col gap-10 my-20'>
         <div className='lg:flex  gap-x-8 lg:translate-x-40 '>
                 <CategoryAtom>MOBILES</CategoryAtom>
                 <CategoryAtom>ELECTRONICS</CategoryAtom>
