@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const ProuductCard = ({}:any) => {
     return (
-        <div className='border-[1px] border-solid border-[#2933FF]  cursor-pointer rounded-xl transition-all duration-100   hover:border-r-4 hover:border-b-4'>
+        <div className='border-[1px] border-solid border-[#2933FF] lg:h-[400px] h-[300px]  cursor-pointer rounded-xl transition-all duration-100   hover:border-r-4 hover:border-b-4'>
             <div className='hover:translate-x-[-2px] py-5 lg:px-5 px-2 hover:translate-y-[-2px] duration-100  transition-all   '>
 
                 <div className='lg:flex hidden  justify-between w-full '>
                     <div>
-                        <Image className='absolute  translate-x-12 translate-y-12' src={'/Images/tick.png'} width={31} height={31} alt='tick' />
+                        <Image className='absolute  translate-x-12 translate-y-12' src={'/Images/Tick.svg'} width={31} height={31} alt='tick' />
                         <img className='w-20 h-20  rounded-full' src="https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                     </div>
                     <div className='text-right'>
@@ -23,7 +23,7 @@ const ProuductCard = ({}:any) => {
                 <div className='lg:hidden block mb-2'>
                     <div className='flex justify-between'>
                         <div>
-                            <Image className='absolute  translate-x-8 translate-y-8' src={'/Images/tick.png'} width={25} height={25} alt='tick' />
+                            <Image className='absolute  translate-x-8 translate-y-8' src={'/Images/Tick.svg'} width={25} height={25} alt='tick' />
                             <img className='w-14 h-14  rounded-full' src="https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
                         </div>
                         <h6 className='mabry text-[16px]  text-[#664BFB] font-[400] leading-[15px]'>₹12,999</h6>
@@ -48,12 +48,12 @@ const ProuductCard = ({}:any) => {
 
 const PosterCard = () => {
     return (
-        <div className='border-[1px] border-solid border-[#2933FF]  cursor-pointer rounded-xl transition-all duration-100   hover:border-r-4 hover:border-b-4'>
+        <div className='border-[1px] border-solid border-[#2933FF] lg:h-[400px] h-[300px]  cursor-pointer rounded-xl transition-all duration-100   hover:border-r-4 hover:border-b-4'>
             <div className='hover:translate-x-[-2px] py-5 lg:px-5 px-2 hover:translate-y-[-2px] duration-100  transition-all   '>
 
                 <div className='lg:flex hidden  justify-between w-full '>
                     <div>
-                        <Image className='absolute  translate-x-12 translate-y-12' src={'/Images/tick.png'} width={31} height={31} alt='tick' />
+                        <Image className='absolute  translate-x-12 translate-y-12' src={'/Images/Tick.svg'} width={31} height={31} alt='tick' />
 
                         <div className='rounded-full flex items-center justify-center bg-[#82CAFB] w-20 h-20'>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -102,7 +102,7 @@ const PosterCard = () => {
                 <div className=' w-full  lg:py-8 rounded-xl bg-gradient-to-r from-[#836EF6] to-[#664BFB]'>
 
 
-                    <p className='lg:w-[80%] w-full lg:text-base text-[10px] font-semibold text-white   py-2  text-center mx-auto '>
+                    <p className='lg:w-[80%] px-4 w-full lg:text-base text-[10px] font-semibold text-white   py-2  text-center mx-auto '>
                         Make some extra cash by selling things in your community.
                         Go on, it's quick and easy.
                     </p>

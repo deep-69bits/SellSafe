@@ -167,7 +167,7 @@ const Feature = () => {
         </div>
 
         <div>
-          <Image  src={"/Images/MultiplePhones.png"} width={480} height={400} alt="Phone Images"/>
+          <Image  src={"/Images/MultiplePhone.svg"} width={480} height={400} alt="Phone Images"/>
         </div>
       </div>
       </div>

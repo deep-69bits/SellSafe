@@ -39,8 +39,8 @@ const Footer = () => {
 
            <h4 className='text-[24px]  mt-16 text-center  font-medium text-[#664BFB]'>Download The App</h4>
            <div className='flex   z-50 bottom-32 flex-row mt-4'>
-                    <Image src={'/Images/GooglePlay.png'} width={192} height={68} alt='Google Play Button' />
-                    <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Google Play Button' />
+                    <Image src={'/Images/GooglePlay.svg'} width={192} height={68} alt='Google Play Button' />
+                    <Image src={'/Images/AppleStore.svg'} width={192} height={68} alt='Google Play Button' />
             </div>
           </div>
 
