@@ -25,12 +25,12 @@ const AccordionItem = ({ ques, desc }: { ques: string, desc: string }) => {
                 </span>
             </button>
             <div
-                className={`grid overflow-hidden transition-all duration-300 ease-in-out text-black text-xl p-2 pb-0 ${accordionOpen
-                    ? "grid-rows-[1fr] opacity-100 w-[80%]"
+                className={`grid overflow-hidden transition-all duration-300 ease-in-out text-black text-xl py-2  pb-0 ${accordionOpen
+                    ? "grid-rows-[1fr] opacity-100 w-[90%] lg:w-[80%]"
                     : "grid-rows-[0fr] opacity-0"
                     }`}
             >
-                <div className="overflow-hidden">
+                <div className="overflow-hidden   ml-5 lg:ml-0">
                     <Arial>{desc}</Arial>
                 </div>
             </div>

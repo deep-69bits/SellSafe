@@ -110,16 +110,16 @@ const Feature = () => {
         </h2>
       
 
-      <div className='grid gap-y-5 mt-14 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-x-40 px-5'>
+      <div className='grid gap-y-5 mt-14 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-x-10 px-5 lg:pl-20 pl-0'>
 
-        <div className='flex flex-col px-0 lg:px-20 gap-y-10 w-[95%] '>
+        <div className='flex flex-col  lg:my-8 my-0   lg:px-20 gap-y-10   '>
 
-          <div className='bg-white rounded-2xl w-fit px-5 py-3'>
+          <div className='bg-white rounded-2xl  w-full px-5 py-3'>
               <h5 className='text-[#684EFB]   text-[22px] '>
                 <Arial className='text-left' >AI  INTEGRATION</Arial>
               </h5>
               <div  className='flex  items-start lg:items-center gap-x-4 my-4' >
-                  <AISVG/>
+                   <AISVG/>
                   <div className='text-lg'>
                     <Arial>
                   Smart recommendations for a seamless selling and buying experience.
@@ -167,7 +167,7 @@ const Feature = () => {
         </div>
 
         <div>
-          <Image  src={"/Images/MultiplePhones.png"} width={450} height={400} alt="Phone Images"/>
+          <Image  src={"/Images/MultiplePhones.png"} width={480} height={400} alt="Phone Images"/>
         </div>
       </div>
       </div>

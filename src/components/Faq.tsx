@@ -7,67 +7,41 @@ const Faq = () => {
 
     const accordionData = [
         {
-            title: "Account Management",
+            title: "User Verification ",
             questions: [
                 {
-                    ques: "Technical Issue(s) Troubleshooting - App?",
-                    desc: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+                    ques: "Why is Aadhaar card verification necessary?",
+                    desc: "Verifying with Aadhaar enhances trust and safety, creating a reliable community of buyers and sellers on SellSafe.",
                 },
                 {
-                    ques: "How to create an account on Sell Safe?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+                    ques: "How can I trust the verified status of other users?",
+                    desc: "Look for the verification badge on user profiles. It indicates that the user's identity has been verified through the Aadhaar card submission process.",
                 }
             ],
         },
         {
-            title: "Posting & Managing Ads",
+            title: "AI integration",
             questions: [
                 {
-                    ques: "How can I post an ad?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+                    ques: "Can AI accurately identify and categorize various items?",
+                    desc: "Yes, SellSafe's AI is designed to recognize and categorize items accurately, ensuring that listings are placed in the right categories and described appropriately.",
                 },
                 {
-                    ques: "How many ads can I post in a month?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+                    ques: "What additional information can AI provide for a listing?",
+                    desc: "AI identifies key details like colors and features, enhancing the quality of listings and helping buyers make informed decisions.",
                 }
             ],
         },
         {
-            title: "Buying via SELLSAFE",
+            title: "Connecting Buyers and Sellers",
             questions: [
                 {
-                    ques: "How do I search for a product?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+                    ques: "Are there any communication tools for buyers and sellers on the platform?",
+                    desc: "Yes, SellSafe provides secure messaging within the app, allowing buyers and sellers to communicate and finalize details without sharing personal contact information.",
                 },
                 {
-                    ques: "How do I search for an ad based on location?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-                }
-            ],
-        },
-        {
-            title: "making Safe Transactions",
-            questions: [
-                {
-                    ques: "Why is my account banned?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-                },
-                {
-                    ques: "How can I hide my phone number?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-                }
-            ],
-        },
-        {
-            title: "Verified User",
-            questions: [
-                {
-                    ques: "What does verified user mean?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-                },
-                {
-                    ques: "Why should I trust a verified user/seller?",
-                    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+                    ques: "What steps are taken to ensure a safe transaction between buyers and sellers?",
+                    desc: "SellSafe prioritizes safety by safeguarding transaction funds. The payment is held securely until the buyer approves the received product, ensuring a secure and satisfactory transaction for both parties.",
                 }
             ],
         },

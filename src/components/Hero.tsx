@@ -14,7 +14,7 @@ const kanit = Kanit(
 
 const Hero = () => {
     return (
-        <div className='mx-auto  rounded-full bg flex justify-center gap-x-20  w-full lg:w-1/2  py-10'>
+        <div className='mx-auto  rounded-full bg flex justify-center gap-x-20  w-full lg:w-1/2  lg:py-10 pt-10 '>
             <div className='hidden lg:block'>
                 <Image className='absolute translate-y-[0px]  translate-x-[-150px] cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/GameController.png'} width={194} height={125} alt='Game Controller' />
                 <Image className='absolute translate-y-[200px]  translate-x-[-150px] cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/TV.png'} width={222} height={158} alt='TV' />
@@ -34,7 +34,7 @@ const Hero = () => {
                 </AnonymusPro>
 
 
-                <div className='lg:hidden my-5 grid grid-flow-row gap-y-5 grid-cols-2'>
+                <div className='lg:hidden mt-5  grid grid-flow-row gap-y-5 grid-cols-2'>
                     <Image className='  cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/GameController.png'} width={194} height={125} alt='Game Controller' />
                     <Image className=' translate-y-[-10px] cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/Headphone.png'} width={107} height={124} alt='Headphone' />
                     <div className='flex'>
@@ -44,15 +44,16 @@ const Hero = () => {
                     <Image className='translate-y-[-50px]  cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/TV.png'} width={222} height={158} alt='TV' />
                 </div>
 
-
+                
                 <Button>
                     KNOW MORE ABOUT THE APP
                     {/* <Image src={'/Images/YellowArrow.gif'} style={{width:'30px',height:'40px'}} width={10} height={10} alt='Yellow Arrow' /> */}
                     {/* <Image src={'/Images/YellowArrow.gif'} style={{width:'70px',height:'40px'}} width={10} height={10} alt='Yellow Arrow' /> */}
                 </Button>
+               
 
 
-                <h3 className='anonymous mt-5 text-[18px] leading-[30px] font-[400] '>
+                <h3 className='anonymous mt-5 text-[18px] w-3/4 lg:w-full leading-[30px] font-[400] '>
                     <AnonymusPro>
                         “Say goodbye to outdated platform o|x”
                     </AnonymusPro>
