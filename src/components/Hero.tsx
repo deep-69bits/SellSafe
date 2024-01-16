@@ -4,7 +4,7 @@ import Button from './atoms/Button'
 import { Kanit } from 'next/font/google'
 import Gilroy from './Text/Gilroy'
 import AnonymusPro from './Text/AnonymusPro'
-import Mabry from './Text/Mabry'
+import '../app/slider.css'
 
 const kanit = Kanit(
     {
@@ -59,10 +59,7 @@ const Hero = () => {
                     </AnonymusPro>
                 </h3>
 
-                <div className='lg:flex lg:fixed hidden z-50 bottom-32 flex-row mt-4'>
-                    <Image src={'/Images/GooglePlay.svg'} width={192} height={68} alt='Google Play Button' />
-                    <Image src={'/Images/AppleStore.svg'} width={192} height={68} alt='Google Play Button' />
-                </div>
+               
 
             </div>
 
