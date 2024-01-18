@@ -88,7 +88,7 @@ const data=[
 ]
 const Products = () => {
   return (
-    <div className='lg:px-10 px-4 lg:gap-x-10 gap-x-3  lg:gap-y-10 gap-y-5 my-10 mt-20 grid grid-flow-row lg:grid-cols-4 grid-cols-2  '>
+    <div id='products' className='lg:px-10 px-4 lg:gap-x-10 gap-x-3  lg:gap-y-10 gap-y-5 my-10 mt-20 grid grid-flow-row lg:grid-cols-4 grid-cols-2  '>
        {
         data.map((item,index)=>{
           return(

@@ -5,6 +5,8 @@ import { Kanit } from 'next/font/google'
 import Gilroy from './Text/Gilroy'
 import AnonymusPro from './Text/AnonymusPro'
 import '../app/slider.css'
+import Link from 'next/link'
+import handleScroll from '@/lib/Scrollfunction'
 
 const kanit = Kanit(
     {
@@ -44,12 +46,13 @@ const Hero = () => {
                     <Image className='translate-y-[-50px]  cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/TV.svg'} width={222} height={158} alt='TV' />
                 </div>
 
-                
+                <Link href={"#feature"} onClick={handleScroll}>
                 <Button>
                     KNOW MORE ABOUT THE APP
                     {/* <Image src={'/Images/YellowArrow.gif'} style={{width:'30px',height:'40px'}} width={10} height={10} alt='Yellow Arrow' /> */}
                     {/* <Image src={'/Images/YellowArrow.gif'} style={{width:'70px',height:'40px'}} width={10} height={10} alt='Yellow Arrow' /> */}
                 </Button>
+                </Link>
                
 
 

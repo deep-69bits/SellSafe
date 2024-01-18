@@ -1,9 +1,12 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import Arial from '../Text/Arial'
+import handleScroll from '@/lib/Scrollfunction'
+import Link from 'next/link'
 const Footer = () => {
   return (
-    <section id="#footer">
+    <section id="footer">
     <div className='mt-5'>
       <div className='lg:flex block justify-between  px-4  lg:px-10 py-10'>
         <div className='flex flex-col gap-y-4'>
@@ -37,10 +40,10 @@ const Footer = () => {
             </div>
           <video className='w-[800px]  rounded-2xl ' src='/Videos/advideo.mp4' autoPlay loop />
 
-           <h4 className='text-[24px]  mt-16 text-center  font-medium text-[#664BFB]'>Download The App</h4>
-           <div className='flex   z-50 bottom-32 flex-row mt-4'>
-                    <Image src={'/Images/GooglePlay.svg'} width={192} height={68} alt='Google Play Button' />
-                    <Image src={'/Images/AppleStore.svg'} width={192} height={68} alt='Google Play Button' />
+           <h4 className='text-[24px]  mt-16 text-center font-[600]   text-[#664BFB]'>Download The App</h4>
+           <div className='flex   z-50 bottom-32 flex-row justify-center mt-4'>
+                    <Image src={'/Images/GooglePlay.svg'} width={160} height={68} alt='Google Play Button' />
+                    <Image src={'/Images/AppleStore.svg'} width={160} height={68} alt='Google Play Button' />
             </div>
           </div>
 
@@ -57,9 +60,17 @@ const Footer = () => {
 
           <div className='flex flex-col gap-y-2'>
           <h3 className='text-[#664BFB] text-[24px] font-semibold'>Company</h3>
-          <span className='text-[20px] font-medium'>Why SellSafe</span>
-          <span className='text-[20px] font-medium'>Overview</span>
+          <Link href={'#feature'} onClick={handleScroll}>
+          <span className='text-[20px] cursor-pointer font-medium'>
+            Why SellSafe
+          </span>
+          </Link>
+          <Link href={'#products'} onClick={handleScroll}>
+          <span className='text-[20px] font-medium cursor-pointer'>Overview</span>
+          </Link>
+          <Link href={'#faqs'} onClick={handleScroll}>
           <span className='text-[20px] font-medium'>Becho Befikar</span>
+          </Link>
           </div>
 
 
@@ -69,8 +80,8 @@ const Footer = () => {
         <div className='lg:block hidden p-5 bg-purple-100 rounded-2xl'>
           <Image className='absolute  lg:translate-x-[550px] translate-y-20 ' width={180} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
           <video className='w-[800px] ' src='/Videos/advideo.mp4' autoPlay loop />
-          <div className='flex justify-between items-center'>
-            <div className='flex flex-row mt-4'>
+          <div className='lg:flex justify-between items-center hidden '>
+            <div className='flex flex-row justify-center mt-4'>
               <Image src={'/Images/GooglePlay.png'} width={192} height={68} alt='Google Play Button' />
               <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Google Play Button' />
             </div>
@@ -87,9 +98,11 @@ const Footer = () => {
           </Arial>
           </span>
         <span className='cursor-pointer underline tex-[20px] text-[#836EF6] '>
+        <Link href={'#header'} onClick={handleScroll}>
           <Arial>
           Back to Top
           </Arial>
+        </Link>
         </span>
           <Arial>
         <span className='flex items-center gap-x-1 text-[#664BFB] font-[400] text-[20px]'>

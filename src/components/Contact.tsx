@@ -25,7 +25,7 @@ const Contact = () => {
                 <span className='underline'> Privacy Policy.</span>
                 </div>
             </div>
-            <div className='text-[92px] hidden lg:block lg:text-[137px] text-left  lg:text-right lg:float-right float-none text-[#836EF6] gilory font-[600] leading-tight '>
+            <div className='text-[120px] leading-[7rem] hidden lg:block lg:text-[137px] text-left  lg:text-right lg:float-right float-none text-[#836EF6] gilory font-[600]  '>
                 BECHO  BEFIKAR
             </div>
 

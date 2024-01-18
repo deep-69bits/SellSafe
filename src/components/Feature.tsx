@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Gilroy from './Text/Gilroy'
-import Mabry from './Text/Mabry'
 import Arial from './Text/Arial'
 
 
@@ -99,20 +98,20 @@ const RESELLSVG=()=>{
 
 const Feature = () => {
   return (
-    <div className='lg:px-10 px-3 '>
+    <div id='feature' className='lg:px-10 px-3 '>
       <div className='bg-purple-100 py-10 w-full  rounded-xl'>
-        <h1 className='text-[#271E58] gilory text-left px-3 lg:px-0 lg:text-center text-[64px]'>
+        <h1 className='lg:text-[#271E58] leading-[4rem] lg:leading-normal  gilory text-left px-3 lg:px-0 lg:text-center text-[64px]'>
           <Gilroy>Relax, Resell, Repeat</Gilroy>
         </h1>
-        <h2 className='lg:text-center capitalize text-left px-3 lg:px-0 lg:w-[50%] w-full mx-auto  text-[24px]'>
+        <h2 className='lg:text-center capitalize text-left  lg:px-0 lg:w-[50%] w-[90%] mx-auto  text-[22px] mt-3 lg:text-[24px]'>
           An easy and efficient way to sell and buy second hand products.
           Find the right buyer for almost anything.
         </h2>
       
 
-      <div className='grid gap-y-5 mt-14 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-x-10 px-5 lg:pl-20 pl-0'>
+      <div className='grid gap-y-5 lg:mt-14 mt-10 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-x-10 px-5 lg:pl-20 pl-0'>
 
-        <div className='flex flex-col  lg:my-8 my-0   lg:px-20 gap-y-10   '>
+        <div className='flex flex-col  lg:my-8 my-0   lg:px-20 pl-2 gap-y-10   '>
 
           <div className='bg-white rounded-2xl  w-full px-5 py-3'>
               <h5 className='text-[#684EFB]   text-[22px] '>

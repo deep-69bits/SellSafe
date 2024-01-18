@@ -11,98 +11,76 @@ const CategoryAtom = ({ children }: any) => {
   )
 }
 
+const slidecontent = [
+  "MOBILES", "ELECTRONICS", "HOME DECOR", "GAMING", "MUSIC", "AUTOMOBILE",
+  "HOME CARE", "TWO WHEELERS", "BABY CARE", "LAPTOPS","MOBILES","ELECTRONICS", "GAMING",
+  "MUSIC", "AUTOMOBILE"
+]
+
 const Categories = () => {
   return (
-    <div className='lg:px-10  px-4 overflow-hidden  flex flex-col gap-10 my-20'>
+    <div className='lg:px-10  px-4 overflow-hidden  flex flex-col    my-20'>
 
       <div className="slider">
         <div className="slide-track py-1">
-          <div className="slide">
-            <CategoryAtom>MOBILES</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>ELECTRONICS</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>HOME DECOR</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>GAMING</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>MUSIC</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>AUTOMOBILE</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>MOBILES</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>ELECTRONICS</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>HOME DECOR</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>GAMING</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>MUSIC</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>AUTOMOBILE</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>ELECTRONICS</CategoryAtom>
-          </div>
+          {
+            slidecontent.map((item, index) => {
+              return (
+                <div key={index} className="slide">
+                  <CategoryAtom>{item}</CategoryAtom>
+                </div>
+              )
+            })
+          }
         </div>
       </div>
 
 
-      <div className="slider">
-        <div className="slide-track py-1">
-          <div className="slide">
-          <CategoryAtom>HOME CARE</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>TWO WHEELERS</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>BABY CARE</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>LAPTOPS</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>HOME CARE</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>TWO WHEELERS</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>BABY CARE</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>GAMING</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>LAPTOPS</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>TWO WHEELERS</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>HOME CARE</CategoryAtom>
-          </div>
-          <div className="slide">
-          <CategoryAtom>TWO WHEELERS</CategoryAtom>
-          </div>
-          <div className="slide">
-            <CategoryAtom>ELECTRONICS</CategoryAtom>
-          </div>
+      <div className="rslider">
+        <div className="rslide-track py-1">
+        {
+            slidecontent.map((item, index) => {
+              return (
+                <div key={index} className="rslide">
+                  <CategoryAtom>{item}</CategoryAtom>
+                </div>
+              )
+            })
+          }
+      
         </div>
       </div>
+
+      <div className="slider lg:hidden block">
+        <div className="slide-track py-1">
+          {
+            slidecontent.map((item, index) => {
+              return (
+                <div key={index} className="slide">
+                  <CategoryAtom>{item}</CategoryAtom>
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
+
+      <div className="rslider lg:hidden block">
+        <div className="rslide-track py-1">
+        {
+            slidecontent.map((item, index) => {
+              return (
+                <div key={index} className="rslide">
+                  <CategoryAtom>{item}</CategoryAtom>
+                </div>
+              )
+            })
+          }
+      
+        </div>
+      </div>
+
+
     </div>
   )
 }

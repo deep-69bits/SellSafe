@@ -48,8 +48,8 @@ const Faq = () => {
     ]
 
     return (
-        <div className='mt-10 lg:px-10 px-3' >
-            <div className="text-[#271E58]  text-[54px] sm:text-6xl font-[650] capitalize lg:p-10 p-4 pl-3 lg:pl-20">
+        <div id='faqs' className='mt-10 lg:px-10 px-3' >
+            <div className="lg:text-[#271E58]  text-[64px] leading-[4rem] lg:leading-normal  font-[500] capitalize lg:p-10 p-4 pl-3 lg:pl-20">
                 <Gilroy><p className='lg:w-2/3 w-full'>We are here to help  you. See FAQs</p></Gilroy>
             </div>
             <div>
