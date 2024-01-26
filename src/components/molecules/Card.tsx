@@ -49,7 +49,7 @@ const ProuductCard = ({ data }: any) => {
 
 const PosterCard = () => {
     return (
-        <div className='border-[2px] border-solid border-[#664BFB] col-span-1   cursor-pointer rounded-[20px] transition-all duration-100   hover:border-r-[6px] hover:border-b-[6px]'>
+        <div className='border-[2px] border-solid border-[#664BFB] col-span-1   cursor-pointer rounded-[20px] transition-all duration-100   border-r-[6px] border-b-[6px]'>
             <div className='translate-x-[-2px] py-5 lg:px-5 px-2 translate-y-[-2px] duration-100  transition-all   '>
 
                 <div className='lg:flex hidden  justify-between w-full '>

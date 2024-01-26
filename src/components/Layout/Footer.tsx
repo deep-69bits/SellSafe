@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
 
         <div className='lg:block hidden p-5 lg:w-[62%] bg-[#F8F6FE] rounded-2xl'>
-          <Image className='absolute  lg:translate-x-[550px] translate-y-20 ' width={180} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
+          <Image className='absolute  lg:translate-x-[700px] translate-y-24 ' width={240} height={500} src="/Images/MobilePhone.png" alt='Mobile Phone' />
           <video className='w-[1000px] ' src='/Videos/advideo.mp4' autoPlay muted loop />
           <div className='lg:flex justify-between items-center hidden '>
 
@@ -87,7 +87,7 @@ const Footer = () => {
               <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Apple Store Button' />
             </div>
 
-            <div className='text-[#664BFB] text-[24px] font-[700]'>Download The App now!</div>
+            <div className='text-[#664BFB] text-[24px] mt-3 font-[700]'>Download The App now!</div>
           </div>
         </div>
       </div>
