@@ -6,6 +6,7 @@ import Hero from '@/components/Hero'
 import Products from '@/components/Products'
 import Categories from '@/components/Categories'
 import StoreSection from '@/components/StoreSection'
+import Footer from '@/components/Layout/Footer'
 
 
 export default function Home() {
@@ -16,8 +17,9 @@ export default function Home() {
     <Categories/> 
     <Feature/>
     <Faq/>
-    <StoreSection/>
     <Contact/>
+    <Footer/>
+    {/* <StoreSection/> */}
     </main>
   )
 }

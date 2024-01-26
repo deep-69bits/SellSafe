@@ -6,7 +6,7 @@ import handleScroll from '@/lib/Scrollfunction'
 const Header = () => {
  
   return (
-    <div id="header" className='px-8 flex justify-between  py-5'>
+    <div id="header" className='lg:px-10 px-5 flex justify-between  py-5'>
        <Image src={'/Logo.svg'} width={150} height={200}  alt="Logo"/>
        <div>
         <Link href={'#footer'} onClick={handleScroll} >

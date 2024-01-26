@@ -21,8 +21,8 @@ const Contact = () => {
                     </button>
                 </div>
                 <div className='text-[#5C5C5C] font-[400] text-[15px] '>
-                We care about your data in our
-                <span className='underline'> Privacy Policy.</span>
+                We care about your data in our 
+                <span className='underline ml-[2px] cursor-pointer'>Privacy Policy</span> .
                 </div>
             </div>
             <div className='text-[120px] leading-[7rem] hidden lg:block lg:text-[137px] text-left  lg:text-right lg:float-right float-none text-[#836EF6] gilory font-[600]  '>

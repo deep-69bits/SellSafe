@@ -46,6 +46,8 @@ const Faq = () => {
             ],
         },
     ]
+     
+    const [accnumber,setAccNumber]=useState(null)
 
     return (
         <div id='faqs' className='mt-10 lg:px-10 px-3' >
@@ -66,12 +68,13 @@ const Faq = () => {
                                                     <AccordionItem
                                                         ques={question.ques}
                                                         desc={question.desc}
+                                                        isOpen={accnumber==index?true:false}
                                                     />
                                                     {
                                                         (index != data.questions.length - 1) ?
                                                             <hr className='w-[85%] h-[2px] ml-10 sm:ml-20 bg-[#AFAFAF] mt-3 mb-1'></hr>
                                                             :
-                                                            <span></span>
+                                                            null
                                                     }
 
                                                 </>)

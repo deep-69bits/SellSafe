@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Arial from "../Text/Arial";
 
-const AccordionItem = ({ ques, desc }: { ques: string, desc: string }) => {
+const AccordionItem = ({ ques, desc,isOpen }: { ques: string, desc: string,isOpen:boolean }) => {
     const [accordionOpen, setAccordionOpen] = useState(false);
 
     return (

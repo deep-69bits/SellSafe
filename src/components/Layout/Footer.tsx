@@ -4,13 +4,13 @@ import Image from 'next/image'
 import Arial from '../Text/Arial'
 import handleScroll from '@/lib/Scrollfunction'
 import Link from 'next/link'
+import '../../app/slider.css'
 const Footer = () => {
   return (
     <section id="footer">
-    <div className='mt-5'>
+    <div className='mt-5 '>
       <div className='lg:flex block justify-between  px-4  lg:px-10 py-10'>
         <div className='flex flex-col gap-y-4'>
-
           <div className='flex flex-col gap-y-2'>
             <h3 className='text-[#664BFB] text-[24px] font-semibold'>Follow us on</h3>
             <h5 className='flex items-center gap-x-1'>
@@ -43,11 +43,11 @@ const Footer = () => {
            <h4 className='text-[24px]  mt-16 text-center font-[600]   text-[#664BFB]'>Download The App</h4>
            <div className='flex   z-50 bottom-32 flex-row justify-center mt-4'>
                     <Image src={'/Images/GooglePlay.svg'} width={160} height={68} alt='Google Play Button' />
-                    <Image src={'/Images/AppleStore.svg'} width={160} height={68} alt='Google Play Button' />
+                    <Image src={'/Images/AppleStore.svg'} width={160} height={68} alt='Apple Store Button' />
             </div>
           </div>
 
-          <div className='flex flex-col gap-y-2'>
+          <div className='flex flex-col leading-[1.7rem] gap-y-2'>
           <h3 className='text-[#664BFB] text-[24px] font-semibold'>Categories</h3>
           <span className='text-[20px] font-medium'>Electronics</span>
           <span className='text-[20px] font-medium'>TV and Appliances</span>
@@ -58,7 +58,7 @@ const Footer = () => {
           <span className='text-[20px] font-medium'>Musical Instrument</span>
           </div>
 
-          <div className='flex flex-col gap-y-2'>
+          <div className='flex flex-col gap-y-2 leading-[1.7rem]'>
           <h3 className='text-[#664BFB] text-[24px] font-semibold'>Company</h3>
           <Link href={'#feature'} onClick={handleScroll}>
           <span className='text-[20px] cursor-pointer font-medium'>
@@ -77,18 +77,19 @@ const Footer = () => {
 
         </div>
 
-        <div className='lg:block hidden p-5 bg-purple-100 rounded-2xl'>
+        <div className='lg:block hidden p-5 lg:w-[62%] bg-[#F8F6FE] rounded-2xl'>
           <Image className='absolute  lg:translate-x-[550px] translate-y-20 ' width={180} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
-          <video className='w-[800px] ' src='/Videos/advideo.mp4' autoPlay loop />
+          <video className='w-[1000px] ' src='/Videos/advideo.mp4' autoPlay muted loop />
           <div className='lg:flex justify-between items-center hidden '>
-            <div className='flex flex-row justify-center mt-4'>
+
+            <div className=' flex z-50     sticky flex-row justify-center mt-4'>
               <Image src={'/Images/GooglePlay.png'} width={192} height={68} alt='Google Play Button' />
-              <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Google Play Button' />
+              <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Apple Store Button' />
             </div>
+
             <div className='text-[#664BFB] text-[24px] font-[700]'>Download The App now!</div>
           </div>
         </div>
-
       </div>
 
       <div className='lg:flex block items-center justify-between px-4 lg:px-10 pb-5  bg-opacity-10 bg-purple-100  w-full'>

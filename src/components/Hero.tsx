@@ -56,7 +56,7 @@ const Hero = () => {
                
 
 
-                <h3 className='anonymous mt-5 text-[18px] w-3/4 lg:w-full leading-[30px] font-[400] '>
+                <h3 className='anonymous mt-8 text-[18px] w-3/4 lg:w-full leading-[30px] font-[400] '>
                     <AnonymusPro>
                         “Say goodbye to outdated platform o|x”
                     </AnonymusPro>
