@@ -83,8 +83,9 @@ const Footer = () => {
           <div className='lg:flex justify-between items-center hidden '>
 
             <div className=' flex z-50      relative flex-row justify-center mt-4'>
-              <Image src={'/Images/GooglePlay.png'} width={192} height={68} alt='Google Play Button' />
-              <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Apple Store Button' />
+    
+              <Image src={'/Images/GooglePlay.svg'} width={192} height={68} alt='Google Play Button' />
+                    <Image src={'/Images/AppleStore.svg'} width={192} height={68} alt='Apple Store Button' />
             </div>
 
             <div className='text-[#664BFB] text-[24px] mt-3 font-[700]'>Download The App now!</div>
