@@ -73,7 +73,7 @@ const Faq = () => {
                 {
                     accordionData.map((data, ind) => {
                         return (
-                            <div className='  bg-purple-100 bg-opacity-60  rounded-3xl my-5'>
+                            <div className='  lg:bg-purple-100  bg-[#F8F6FE] opacity-100 lg:bg-opacity-60  rounded-3xl my-5'>
                                 <h1 className='text-[#664BFB] text-3xl sm:text-4xl uppercase p-6 lg:pl-20 pl-7 font-[450] '>{data.title}</h1>
                                 <div className='pb-5'>
                                     {

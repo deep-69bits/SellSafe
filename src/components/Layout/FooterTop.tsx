@@ -36,12 +36,12 @@ const FooterTop = () => {
 
 
             <div className='lg:hidden block'>
-              <div className='flex justify-center '>
-                <Image className='absolute  translate-y-20  ' width={100} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
-              </div>
               <video className='w-[800px]   rounded-3xl ' src='/Videos/advideo.mp4' autoPlay loop />
+              <div className='flex justify-center '>
+                <Image className='absolute  translate-y-[-120px]  ' width={100} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
+              </div>
 
-              <h4 className='text-[24px]  mt-16 text-center font-[600]   text-[#664BFB]'>Download The App</h4>
+              <h4 className='text-[24px]  mt-24 text-center font-[600]   text-[#664BFB]'>Download The App</h4>
             </div>
 
             <div className='lg:flex flex-col leading-[1.5rem] gap-y-2 hidden'>

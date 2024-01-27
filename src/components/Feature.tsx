@@ -99,7 +99,7 @@ const RESELLSVG=()=>{
 const Feature = () => {
   return (
     <div id='feature' className='lg:px-10 px-3 '>
-      <div className='bg-purple-100 py-10 w-full  rounded-[32px]'>
+      <div className='lg:bg-purple-100  bg-[#F8F6FE] py-10 w-full  rounded-[32px]'>
         <h1 className='lg:text-[#271E58] leading-[4rem] lg:leading-normal  gilory text-left px-3 lg:px-0 lg:text-center text-[64px]'>
           <Gilroy>Relax, Resell, Repeat</Gilroy>
         </h1>
