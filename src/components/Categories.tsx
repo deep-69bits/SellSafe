@@ -12,21 +12,23 @@ const CategoryAtom = ({ children }: any) => {
 }
 
 const slidecontent = [
-  "MOBILES", "ELECTRONICS", "HOME DECOR", "GAMING", "MUSIC", "AUTOMOBILE",
-  "HOME CARE", "TWO WHEELERS", "BABY CARE", "LAPTOPS","MOBILES","ELECTRONICS", "GAMING",
+  "GAMING", "MOBILES", "ELECTRONICS", "HOME DECOR", ,,"AUTOMOBILE",
+  "HOME CARE", "MUSIC", "TWO WHEELERS", "BABY CARE", "LAPTOPS","MOBILES","ELECTRONICS", "GAMING",
   "MUSIC", "AUTOMOBILE"
 ]
+
+slidecontent.sort((a:any, b:any) => a.length - b.length);
 
 const Categories = () => {
   return (
     <div className='   overflow-hidden  flex flex-col    mb-10 mt-20'>
 
       <div className="slider">
-        <div className="slide-track py-1">
+        <div className="slide-track flex  py-1">
           {
             slidecontent.map((item, index) => {
               return (
-                <div key={index} className="slide">
+                <div key={index} className="slide w-[250px] ">
                   <CategoryAtom>{item}</CategoryAtom>
                 </div>
               )
