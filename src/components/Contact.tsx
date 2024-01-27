@@ -3,12 +3,12 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='lg:flex items-center block gap-x-40 justify-between lg:px-10 px-3 '>
+        <div className='lg:flex lg:pb-[64px] items-center block gap-x-40 justify-between lg:px-10 px-3 '>
             <div className='text-[70px] lg:hidden block mb-10 lg:text-[137px] text-left  lg:text-right lg:float-right float-none text-[#836EF6] gilory font-[600] leading-tight '>
                 BECHO  BEFIKAR
             </div>
             <div className=' '>
-                <h2 className='text-[#271E58]  font-[500] text-[36px] gilory  leading[36px]'>
+                <h2 className='text-[#271E58]   font-[500] text-[36px] gilory  leading-[36px] mb-4'>
                     Be the first to know about any Product
                 </h2>
                 <h3 className='text-[24px] '>

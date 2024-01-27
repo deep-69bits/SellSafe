@@ -108,7 +108,6 @@ const Feature = () => {
           Find the right buyer for almost anything.
         </h2>
       
-
       <div className='grid gap-y-5 lg:mt-14 mt-10 grid-flow-row grid-cols-1 lg:grid-cols-2 gap-x-10 px-5 lg:pl-20 pl-0'>
 
         <div className='flex flex-col  lg:my-8 my-0   lg:px-20 pl-2 gap-y-10   '>
@@ -166,6 +165,8 @@ const Feature = () => {
         </div>
 
         <div>
+        <div className='bg-[#664BFB] blur-lg lg:scale-100 scale-[20%] translate-y-[-100px] translate-x-[-500px] h-[845px] opacity-5 rounded-full backdrop-blur-lg w-[845px] absolute '></div>
+        
           <Image  src={"/Images/MultiplePhone.svg"} width={480} height={400} alt="Phone Images"/>
         </div>
       </div>

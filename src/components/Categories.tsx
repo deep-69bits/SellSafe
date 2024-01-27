@@ -19,7 +19,7 @@ const slidecontent = [
 
 const Categories = () => {
   return (
-    <div className='lg:px-10  px-4 overflow-hidden  flex flex-col    my-20'>
+    <div className='   overflow-hidden  flex flex-col    mb-10 mt-20'>
 
       <div className="slider">
         <div className="slide-track py-1">

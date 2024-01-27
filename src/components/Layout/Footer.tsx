@@ -35,10 +35,10 @@ const Footer = () => {
 
 
           <div className='lg:hidden block'>
-            <div className='flex justify-center'>
+            <div className='flex justify-center '>
           <Image className='absolute  translate-y-20  ' width={100} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
             </div>
-          <video className='w-[800px]  rounded-2xl ' src='/Videos/advideo.mp4' autoPlay loop />
+          <video className='w-[800px]   rounded-3xl ' src='/Videos/advideo.mp4' autoPlay loop />
 
            <h4 className='text-[24px]  mt-16 text-center font-[600]   text-[#664BFB]'>Download The App</h4>
            <div className='flex   z-50 bottom-32 flex-row justify-center mt-4'>
@@ -47,8 +47,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='flex flex-col leading-[1.7rem] gap-y-2'>
-          <h3 className='text-[#664BFB] text-[24px] font-semibold'>Categories</h3>
+          <div className='flex flex-col leading-[1.3rem] gap-y-2'>
+          <h3 className='text-[#664BFB] text-[24px] font-semibold pt-4'>Categories</h3>
           <span className='text-[20px] font-medium'>Electronics</span>
           <span className='text-[20px] font-medium'>TV and Appliances</span>
           <span className='text-[20px] font-medium'>Furniture</span>
@@ -58,8 +58,8 @@ const Footer = () => {
           <span className='text-[20px] font-medium'>Musical Instrument</span>
           </div>
 
-          <div className='flex flex-col gap-y-2 leading-[1.7rem]'>
-          <h3 className='text-[#664BFB] text-[24px] font-semibold'>Company</h3>
+          <div className='flex flex-col gap-y-2 leading-[1.3rem]'>
+          <h3 className='text-[#664BFB] text-[24px] font-semibold mt-4'>Company</h3>
           <Link href={'#feature'} onClick={handleScroll}>
           <span className='text-[20px] cursor-pointer font-medium'>
             Why SellSafe
@@ -76,13 +76,13 @@ const Footer = () => {
 
 
         </div>
-
-        <div className='lg:block hidden p-5 lg:w-[62%] bg-[#F8F6FE] rounded-2xl'>
+        <div className='lg:block hidden p-5 lg:w-[62.8%] bg-[#F8F6FE] rounded-2xl'>
+        <div className='bg-[#664BFB] blur-lg lg:scale-100 scale-[20%] translate-y-[-100px] translate-x-[-500px] h-[845px] opacity-[0.04] rounded-full backdrop-blur-lg w-[845px] absolute '></div>
           <Image className='absolute  lg:translate-x-[700px] translate-y-24 ' width={240} height={500} src="/Images/MobilePhone.png" alt='Mobile Phone' />
-          <video className='w-[1000px] ' src='/Videos/advideo.mp4' autoPlay muted loop />
+          <video className='w-[1000px] rounded-3xl   ' src='/Videos/advideo.mp4' autoPlay muted loop />
           <div className='lg:flex justify-between items-center hidden '>
 
-            <div className=' flex z-50     sticky flex-row justify-center mt-4'>
+            <div className=' flex z-50      relative flex-row justify-center mt-4'>
               <Image src={'/Images/GooglePlay.png'} width={192} height={68} alt='Google Play Button' />
               <Image src={'/Images/AppStore.png'} width={192} height={68} alt='Apple Store Button' />
             </div>
@@ -92,14 +92,14 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='lg:flex block items-center justify-between px-4 lg:px-10 pb-5  bg-opacity-10 bg-purple-100  w-full'>
+      <div className='lg:flex block items-center justify-between px-4 lg:px-10 pb-5   bg-opacity-10 bg-purple-100  w-full'>
         <span className='text-[#664BFB] font-[400] text-[20px]'>
           <Arial>
           © 2022 SellSafe. All Rights Reserved.
           </Arial>
           </span>
-        <span className='cursor-pointer underline tex-[20px] text-[#836EF6] '>
-        <Link href={'#header'} onClick={handleScroll}>
+        <span className='cursor-pointer underline my-[16px] tex-[20px] text-[#836EF6] '>
+        <Link className='' href={'#header'} onClick={handleScroll}>
           <Arial>
           Back to Top
           </Arial>

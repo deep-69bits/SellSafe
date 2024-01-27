@@ -102,7 +102,7 @@ const PosterCard = () => {
 
                 <div>
                     <div>
-                        <div className=' text-center absolute z-10 mx-auto translate-y-[30%] translate-x-3 w-[80%]  ' >
+                        <div className=' text-center absolute z-10 mx-auto translate-y-[30%] lg:translate-x-5 translate-x-3 w-[80%]  ' >
                             <p className='lg:text-base text-[10px] font-semibold text-white'>
                                 Make some extra cash by selling things in your community.
                                 Go on, it's quick and easy.
