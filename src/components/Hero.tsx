@@ -18,7 +18,7 @@ const kanit = Kanit(
 
 const Hero = () => {
     return (
-        <div className='mx-auto  rounded-full bg flex justify-center gap-x-20  w-full lg:w-1/2  lg:py-10  py-0 pt-10 '>
+        <div className='mx-auto  rounded-full  flex justify-center gap-x-20  w-full lg:w-1/2  lg:py-10  py-0 lg:pt-10 pt-4 '>
 
             <div className='bg-[#664BFB] lg:scale-100 scale-[20%] blur-lg translate-y-[-100px] h-[845px] opacity-[0.06] rounded-full backdrop-blur-lg w-[845px] absolute -z-50'></div>
             <div className='hidden lg:block'>
@@ -31,7 +31,7 @@ const Hero = () => {
 
                 <div className='flex justify-center '>
                     <Image className='absolute translate-x-24 lg:translate-x-60  translate-y-[-10px] lg:translate-y-[-50px]' src={'/Images/Stars.gif'} width={140} height={200} alt='Stars' />
-                    <h1 className={'text-[#271E58]  lg:text-[68px] text-[48px] leading-tight text-left  lg:text-center font-[600]  capitalize drop-shadow-2xl w-full lg:w-[80%] kanit  '}>
+                    <h1 className={'text-[#271E58]  lg:text-[68px]  text-[48px] leading-tight text-left  lg:text-center font-[600]  capitalize drop-shadow-2xl w-full lg:w-[80%] kanit  '}>
                         <Gilroy>don’t suffer  becho befikar</Gilroy>
                     </h1>
                 </div>
@@ -41,10 +41,10 @@ const Hero = () => {
                 </AnonymusPro>
 
 
-                <div className='lg:hidden lg:mt-5  grid grid-flow-row  grid-cols-2'>
+                <div className='lg:hidden lg:mt-5  my-5 grid grid-flow-row  grid-cols-2'>
                     <Image className='  cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/Gamecontroller.svg'} width={194} height={125} alt='Game Controller' />
                     <Image className=' translate-y-[-10px] cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/Headphone.svg'} width={107} height={124} alt='Headphone' />
-                    <div className='flex'>
+                    <div className='flex '>
                         <Image className=' w-[80px] h-[60px] translate-y-[30px]  cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/Camera.svg'} width={80} height={40} alt='Camer' />
                         <Image className=' w-[60px]  h-[70px]   cursor-pointer hover:scale-110 transition-all duration-300' src={'/Images/phone.svg'} width={80} height={40} alt='Phone' />
                     </div>
@@ -53,7 +53,7 @@ const Hero = () => {
 
                 <Link href={"#feature"} onClick={handleScroll}>
                     <Button>
-                        <div className='flex items-center '>
+                        <div className='flex text-xs lg:text-sm items-center '>
                             KNOW MORE ABOUT THE APP
                             <div className='w-6 scale-[300%]'>
                                 <Lottie animationData={arrow}  loop={true} />
