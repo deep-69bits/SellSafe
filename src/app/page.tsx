@@ -43,6 +43,7 @@ export default function Home() {
             <DialogHeader>
               <Gilroy>
                 <DialogTitle className='text-[64px] mb-5 leading-[4rem] lg:text-center text-left font-[400] text-[#271E58]'>
+                <Image className='absolute translate-x-24 lg:translate-x-60  translate-y-[-10px] lg:translate-y-[-50px]' src={'/Images/Stars.gif'} width={140} height={200} alt='Stars' />
                   Get beta access of the app
                 </DialogTitle>
               </Gilroy>
