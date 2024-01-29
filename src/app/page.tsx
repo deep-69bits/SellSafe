@@ -39,7 +39,7 @@ export default function Home() {
         <Dialog>
           <DialogTrigger> <Image className='cursor-pointer' src={'/Images/GooglePlay.svg'} width={180} height={68} alt='Google Play Button' /></DialogTrigger>
           <DialogTrigger>  <Image className='cursor-pointer' src={'/Images/AppleStore.svg'} width={180} height={68} alt='Apple Store Button' /></DialogTrigger>
-          <DialogContent className='lg:w-full  lg:pt-24  lg:pb-14'>
+          <DialogContent className='w-full  lg:pt-24  lg:pb-14'>
             <DialogHeader>
               <Gilroy>
                 <DialogTitle className='text-[64px] mb-5 leading-[4rem] lg:text-center text-left font-[400] text-[#271E58]'>
