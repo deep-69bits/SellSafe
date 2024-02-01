@@ -120,7 +120,7 @@ export default function Home() {
 
             <div className='lg:block hidden   lg:w-[61.02%] bg-[#F8F6FE] rounded-2xl'>
               <div className='bg-[#664BFB] blur-lg lg:scale-100 scale-[20%]  translate-x-[-500px]  opacity-[0.04] rounded-full backdrop-blur-lg w-[845px] absolute '></div>
-              <Image className='absolute scale-95  lg:translate-x-[600px]  ' width={240} height={500} src="/Images/MobilePhone.png" alt='Mobile Phone' />
+              <Image className='absolute scale-95  lg:translate-x-[550px]  ' width={240} height={500} src="/Images/MobilePhone.png" alt='Mobile Phone' />
               <video className='w-[1000px] rounded-3xl   ' src='/Videos/advideo.mp4' autoPlay muted loop />
               
              
@@ -128,9 +128,12 @@ export default function Home() {
               <div className='lg:flex justify-start items-center hidden '>
                 <div ref={divRef2} className='flex' >
                   <Dialog>
-                    <div className='w-full   flex justify-center'>
+                    <div className='w-full  items-center  flex justify-center'>
                       <DialogTrigger> <Image className='cursor-pointer' src={'/Images/GooglePlay.svg'} width={180} height={68} alt='Google Play Button' /></DialogTrigger>
                       <DialogTrigger>  <Image className='cursor-pointer' src={'/Images/AppleStore.svg'} width={180} height={68} alt='Apple Store Button' /></DialogTrigger>
+                      <DialogTrigger>
+                      <div className='text-[#664BFB] text-[24px]  cursor-pointer  ml-10 font-[700]'>Download The App now!</div>
+                      </DialogTrigger>
                     </div>
                     <DialogContent className='w-full   lg:pt-24  lg:pb-14'>
                       <DialogHeader>
@@ -167,7 +170,6 @@ export default function Home() {
                     </DialogContent>
                   </Dialog>
                 </div>
-                <div className='text-[#664BFB] text-[24px]   ml-10 font-[700]'>Download The App now!</div>
               </div>
             </div>
           </div>
