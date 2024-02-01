@@ -35,11 +35,13 @@ export default function Home() {
       <Faq />
       <Contact />
       <FooterTop />
-      <div className=' flex z-50  sticking   w-full  lg:translate-y-[-50px]     flex-row justify-center '>
+      <div className=' flex z-50  sticking   w-full  lg:translate-y-[-50px]      flex-row justify-center '>
         <Dialog>
+          <div className='w-full  flex justify-center'>
           <DialogTrigger> <Image className='cursor-pointer' src={'/Images/GooglePlay.svg'} width={180} height={68} alt='Google Play Button' /></DialogTrigger>
           <DialogTrigger>  <Image className='cursor-pointer' src={'/Images/AppleStore.svg'} width={180} height={68} alt='Apple Store Button' /></DialogTrigger>
-          <DialogContent className='w-full  lg:pt-24  lg:pb-14'>
+          </div>
+          <DialogContent className='w-full   lg:pt-24  lg:pb-14'>
             <DialogHeader>
               <Gilroy>
                 <DialogTitle className='text-[64px] mb-5 leading-[4rem] lg:text-center text-left font-[400] text-[#271E58]'>
