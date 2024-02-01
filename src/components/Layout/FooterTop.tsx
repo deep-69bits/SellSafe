@@ -5,10 +5,26 @@ import Arial from '../Text/Arial'
 import handleScroll from '@/lib/Scrollfunction'
 import Link from 'next/link'
 import '../../app/slider.css'
+import { useEffect, useState,useRef } from 'react'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 const FooterTop = () => {
+
+  const [isVisible, setIsVisible] = useState(true);
+  const divRef = useRef<HTMLDivElement>(null);
+  const divRef2 = useRef<HTMLDivElement>(null);
+
   return (
     <section id="">
+     
+
       <div className='  mt-5 lg:translate-y-[-10px] '>
         <div className='lg:flex block justify-between  px-4  lg:px-10 '>
           <div className='flex flex-col gap-y-4'>
@@ -40,7 +56,7 @@ const FooterTop = () => {
               <div className='flex justify-center '>
                 <Image className='absolute  translate-y-[-120px]  ' width={100} height={200} src="/Images/MobilePhone.png" alt='Mobile Phone' />
               </div>
-
+              v
               <h4 className='text-[24px]  mt-24 text-center font-[600]   text-[#664BFB]'>Download The App</h4>
             </div>
 
@@ -71,15 +87,16 @@ const FooterTop = () => {
             </div>
           </div>
 
-          <div className='lg:block hidden   lg:w-[62.8%] bg-[#F8F6FE] rounded-2xl'>
+          <div className='lg:block hidden   lg:w-[61.02%] bg-[#F8F6FE] rounded-2xl'>
             <div className='bg-[#664BFB] blur-lg lg:scale-100 scale-[20%] translate-y-[-100px] translate-x-[-500px] h-[845px] opacity-[0.04] rounded-full backdrop-blur-lg w-[845px] absolute '></div>
             <Image className='absolute   lg:translate-x-[700px] translate-y-24 ' width={240} height={500} src="/Images/MobilePhone.png" alt='Mobile Phone' />
             <video className='w-[1000px] rounded-3xl   ' src='/Videos/advideo.mp4' autoPlay muted loop />
             <div className='lg:flex justify-start items-center hidden '>
-              <div className='w-[450px]'>
-                 
+              <div className='flex' >
+              <Image className='cursor-pointer' src={'/Images/GooglePlay.svg'} width={180} height={68} alt='Google Play Button' />
+              <Image className='cursor-pointer' src={'/Images/AppleStore.svg'} width={180} height={68} alt='Apple Store Button' />
               </div>
-              <div className='text-[#664BFB] text-[24px] mt-4 translate-y-2 font-[700]'>Download The App now!</div>
+              <div className='text-[#664BFB] text-[24px]   ml-10 font-[700]'>Download The App now!</div>
             </div>
           </div>
         </div>
