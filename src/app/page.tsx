@@ -120,7 +120,7 @@ export default function Home() {
 
             <div className='lg:block hidden   lg:w-[61.02%] bg-[#F8F6FE] rounded-2xl'>
               <div className='bg-[#664BFB] blur-lg lg:scale-100 scale-[20%]  translate-x-[-500px]  opacity-[0.04] rounded-full backdrop-blur-lg w-[845px] absolute '></div>
-              <Image className='absolute   lg:translate-x-[700px] translate-y-24 ' width={240} height={500} src="/Images/MobilePhone.png" alt='Mobile Phone' />
+              <Image className='absolute scale-95  lg:translate-x-[600px] translate-y-20 ' width={240} height={500} src="/Images/MobilePhone.png" alt='Mobile Phone' />
               <video className='w-[1000px] rounded-3xl   ' src='/Videos/advideo.mp4' autoPlay muted loop />
               
              

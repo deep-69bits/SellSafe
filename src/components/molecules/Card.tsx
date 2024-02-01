@@ -108,14 +108,14 @@ const PosterCard = () => {
                                 Go on, it's quick and easy.
                             </p>
 
-                            <button className='bg-white lg:scale-100 mt-20 hidden lg:flex justify-center  px-5 mx-auto text-[#664BFB] py-2 items-center gap-2 rounded-3xl'>
+                            <button className='bg-white lg:scale-100 mt-10 hidden lg:flex justify-center  px-5 mx-auto text-[#664BFB] py-2 items-center gap-2 rounded-3xl'>
                                 <svg width="29" height="21" viewBox="0 0 29 21" fill="none" >
                                     <path d="M0 11H28M28.5 11H28M19 1C19.1667 2.66667 20 6.4 22 8C24 9.6 27.1667 10.6667 28 11M28 11C27.3333 11.3333 24.4 12.5 22 14.5C19.6 16.5 19 19.6667 19 21" stroke="#664BFB" stroke-width="3" />
                                 </svg>
                                 <span className='text-[10px] '>START SELLING</span>
                             </button>
 
-                            <button className='w-full lg:hidden  mt-4 text-center underline text-white  mb-2'>
+                            <button className='w-full lg:hidden scale-75 mt-4 text-center underline text-white  mb-2'>
                                 START SELLING
                             </button>
 
