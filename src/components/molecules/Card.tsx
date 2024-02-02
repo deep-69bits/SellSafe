@@ -102,13 +102,13 @@ const PosterCard = () => {
 
                 <div>
                     <div>
-                        <div className=' text-center absolute z-10 mx-auto translate-y-[30%] lg:translate-x-5 translate-x-3 w-[80%]  ' >
-                            <p className='lg:text-base text-[10px] font-semibold text-white'>
+                        <div className=' text-center absolute z-10 mx-auto translate-y-[30%] lg:translate-x-5 translate-x-3 w-[75%]  ' >
+                            <p className='lg:text-[16px] text-[10px] font-semibold text-white'>
                                 Make some extra cash by selling things in your community.
                                 Go on, it's quick and easy.
                             </p>
 
-                            <button className='bg-white lg:scale-100 mt-10 hidden lg:flex justify-center  px-5 mx-auto text-[#664BFB] py-2 items-center gap-2 rounded-3xl'>
+                            <button className='bg-white lg:scale-100  mt-[10%] hidden lg:flex justify-center  px-5 mx-auto text-[#664BFB] py-2 items-center gap-2 rounded-3xl'>
                                 <svg width="29" height="21" viewBox="0 0 29 21" fill="none" >
                                     <path d="M0 11H28M28.5 11H28M19 1C19.1667 2.66667 20 6.4 22 8C24 9.6 27.1667 10.6667 28 11M28 11C27.3333 11.3333 24.4 12.5 22 14.5C19.6 16.5 19 19.6667 19 21" stroke="#664BFB" stroke-width="3" />
                                 </svg>
